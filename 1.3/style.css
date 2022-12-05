@@ -80,13 +80,13 @@ body {
 
 @media (min-width: 320px) {
     .page {
-        gap: 88px;
+        gap: 5px;
     }
 }
 
 @media (min-width: 768px) {
     .page {
-        gap: 96px;
+        gap: 5px;
     }
 }
 
@@ -94,9 +94,7 @@ body {
 .header {
     background-color: #fff;
     padding-top: 18px;
-    padding-bottom: 17px;
     border-bottom: 1px solid #d9fff5;
-    height: 87px;
 }
   
 .menu-select {
@@ -125,7 +123,7 @@ body {
 .header::before {
     position: absolute;
     top: 30px;
-    right: 112px;
+    right: 132px;
     content: "";
     width: 2px;
     height: 32px;
@@ -133,7 +131,6 @@ body {
     background-color: #eaeaea;
     display: inline-block;
     vertical-align: super;
-    margin-right: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 1120px) {  
@@ -148,7 +145,6 @@ body {
         background-color: #eaeaea;
         display: inline-block;
         vertical-align: super;
-        margin-right: 20px;
     }
     .select-list__burger {
         padding-left: 8px;
@@ -211,6 +207,11 @@ body {
     line-height: 40px;
 }
 
+.logo {
+    width: 97px;
+    height: 51px;
+}
+
 @media (min-width: 1120px) {
     .page {
         display: flex;
@@ -259,10 +260,15 @@ body {
 
 @media (max-width: 1120px) {
     .menu-select {
-        padding-bottom: 42px;
+        padding-bottom: 18px;
     }
     .service-title {
         background-color: #f8f8f8;
+        position: absolute;
+        padding-top: 24px;
+    }
+    .nav__list {
+        padding-top: 88px;
     }
 
 }
@@ -272,6 +278,8 @@ body {
     display: flex;
     overflow-x: auto;
     padding-left: 16px;
+    padding-bottom: 5px;
+    gap: 8px;
     
 }
 
@@ -286,9 +294,6 @@ body {
     background: #f8f8f8;
     border: 0;
     padding: 6px 14px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 6px;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -320,7 +325,7 @@ body {
     }
 }
 
-.block{
+.content__block{
     display: flex;
     flex-direction: column;
 }
@@ -386,11 +391,19 @@ body {
     .text {
         max-height: 90px;
     }
+    .content__picture {
+        width: 320px;
+        height: 230px;
+    }
 }
   
 @media (min-width: 768px) and (max-width: 1120px) {
     .text {
         max-height: 160px;
+    }
+    .content__picture {
+        width: 360px;
+        height: 260px;
     }
 }
 
@@ -410,6 +423,10 @@ body {
     }
     .readmore {
         margin-left: 40px;
+    }
+    .content__picture {
+        width: 532px;
+        height: 384px;
     }
 }
   
