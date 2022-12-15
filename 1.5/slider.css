@@ -77,7 +77,7 @@ body {
 }
 
 /*ШАПКА*/
-.grad {
+.slider__grad {
     background: linear-gradient(270deg, #FFFFFF 0%, #F8F8F8 98.61%);
     border-top: 2px solid #D9FFF5;
 }
