@@ -59,6 +59,10 @@ textarea {
     cursor: text;
 }
 
+button {
+    cursor: pointer;
+}
+
 button,
 input {
     margin: 0;
