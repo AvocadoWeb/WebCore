@@ -80,7 +80,7 @@
 .list__link:focus::before,
 .list__link:hover::before {
     position: absolute;
-    left: 0;
+    left: 2%;
     content: "";
     width: 4px;
     height: 32px;
